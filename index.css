@@ -9,7 +9,7 @@ body{
     height:100vh;
     background-image: url(second.jpg);
     background-position:center;
-    padding:10px 10px;
+    padding:2rem 2rem;
     overflow:hidden;
     background-size:cover;
     
@@ -18,15 +18,15 @@ body{
 
 }
 .nav{
-    padding:10px 0;
+    padding:0rem;
     display:flex;
     align-items:center;
     justify-content:space-between;
     
 }
 .logo{
-    width:140px;
-    font-size:50px;
+    width:20rem;
+    font-size:3rem;
     color:rgba(64, 42, 90, 0.562)
 
 }
@@ -36,13 +36,13 @@ ul {
     
 }
 li{
-    margin: 10px 15px;
+    margin: 2rem 3rem;
     
 }
 .login-btn{
     text-decoration:none;
     color:#333;
-    margin-right:15px;
+    margin-right:rem;
     font-weight:400;
 
 }
@@ -50,11 +50,11 @@ li{
 .btn{
     display:inline-block;
     text-decoration: none;
-    paddng 14rem 40rem;
+    padding: 1rem 1.4rem;
     color:#fff;
     background-image:linear-gradient(45deg,#df4881,#c430d7);
-    font-size:40px;
-    border-radius:30rem;
+    font-size:2rem;
+    border-radius:7rem;
     border-top-right-radius:0;
 
 }
@@ -63,31 +63,31 @@ li{
     background-color:geern;
 }
 .content{
-    margin-top:10px;
-    max-width:600px;
+    margin-top:1.5rem;
+    max-width:80rem;
 
 }
 .content h1{
-    font-size:70px;
+    font-size:5rem;
     color:#222;
 
 }
 .content p{
-    margin:10px 0 30px;
+    margin:1.5rem 0 3rem;
     color:#333;
 
 }
 .content btn{
-    padding:15px 80px;
-    font-size:16px;
+    padding:2rem 3rem;
+    font-size:3rem;
 
 }
 
 }
 }
 .imge{
-    height:700px;
-    width:700px;
+    height:90rem;
+    width:90rem;
     
     position:absolute;
     
@@ -101,15 +101,15 @@ li{
 
 }
 .content{
-    margin-top:200px;
+    margin-top:15rem;
     grid-column-start: 1;
     grid-column-end:2;
 }
 .imge{
     grid-column-start:2;
     grid-column-end:3;
-    height:700px;
-    width:700px;
+    height:45rem;
+    width:45rem;
 
 }
 
